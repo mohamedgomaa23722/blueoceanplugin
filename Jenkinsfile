@@ -27,6 +27,7 @@ pipeline {
     stage('Deploy') {
       steps {
         echo 'Start deploy'
+        echo 'ggg'
       }
     }
 
