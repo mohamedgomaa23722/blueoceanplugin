@@ -26,6 +26,8 @@ pipeline {
 
     stage('Deploy') {
       steps {
+        sh '''printf "Hello world\\n"
+'''
         echo 'Start deploy'
       }
     }
